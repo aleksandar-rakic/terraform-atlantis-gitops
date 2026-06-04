@@ -26,7 +26,7 @@ provider "aws" {
 }
 
 locals {
-  env         = "staging"
+  env = "staging"
   common_tags = {
     Environment = local.env
     Project     = var.project_name
